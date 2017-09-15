@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Recipezaar</title>
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+	<!-- Import jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+
+	<!-- Import our JS file -->
+	<script src="ajax.js"></script>
+
+	<!-- Import CSS + font -->
+	<link rel="stylesheet" href="style.css" type="text/css" />  
+	<link rel="stylesheet" href="fontello.css"/>  
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=Titan+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Delius+Swash+Caps' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<!-- invisible layer over page (used when lightbox is active; alpha bg -->
+<div class="overlay"></div>
+
+	<header role="banner">
+		<div id="titlewrapper">
+			<span id="title-1">Recipe</span><span id="title-2">zaar</span>
+			<h2>one stop, all the food.</h2>
+		</div>
+		
+		<div id="searchwrapper">
+			<div class="search-bar">
+				<input id="searchterm" type="text" size="20" maxlength="100" placeholder="Start by searching..." role="search" aria-labelledby="searchterm" />
+				<button type="submit" id="getbutton" aria-labelledby="getbutton">Find Recipes</button>
+			</div>
+		</div>
+	</header>
+	
+	<div id="content" role="main">
+		<!--recipe search results go here-->
+	</div>
+ 
+</body>
+</html>
